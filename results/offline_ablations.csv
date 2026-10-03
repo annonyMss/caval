@@ -1,0 +1,9 @@
+variant,AUC,Wilcoxon p (AUC),prevention 0.10,Wilcoxon p (prevention)
+Full model,0.933 +- 0.018,,0.458 +- 0.138,
+No content embeddings,0.865 +- 0.032,0.002,0.260 +- 0.139,0.010
+With utility objective,0.923 +- 0.015,0.014,0.427 +- 0.134,0.432
+No data-flow edges,0.925 +- 0.020,0.084,0.410 +- 0.141,0.322
+No call-return edges,0.933 +- 0.016,1.000,0.455 +- 0.232,0.910
+No temporal edges,0.927 +- 0.020,0.322,0.453 +- 0.169,0.922
+Data-flow overlap >= 1,0.929 +- 0.017,0.322,0.504 +- 0.204,0.496
+Data-flow overlap >= 3,0.928 +- 0.021,0.322,0.406 +- 0.200,0.432

@@ -1,0 +1,6 @@
+metric,episodes,baseline,candidate
+benign utility,785,50.6,50.6
+benign stop rate,785,8.4,8.4
+direct ASR,315,28.6,28.6
+injected ASR,7545,4.9,4.9
+utility under attack,7545,25.9,25.9

@@ -1,0 +1,84 @@
+{
+ "DRIFT": {
+  "n": 699,
+  "plain_k": 14,
+  "adaptive_k": 17,
+  "plain_pct": 2.0028612303290414,
+  "adaptive_pct": 2.432045779685265,
+  "per_suite": {
+   "banking": {
+    "n": 144,
+    "plain_k": 9,
+    "adaptive_k": 15
+   },
+   "travel": {
+    "n": 140,
+    "plain_k": 0,
+    "adaptive_k": 0
+   },
+   "slack": {
+    "n": 105,
+    "plain_k": 0,
+    "adaptive_k": 0
+   },
+   "workspace": {
+    "n": 310,
+    "plain_k": 5,
+    "adaptive_k": 2
+   }
+  }
+ },
+ "CAVAL": {
+  "n": 949,
+  "plain_k": 36,
+  "adaptive_k": 33,
+  "plain_pct": 3.793466807165437,
+  "adaptive_pct": 3.4773445732349844,
+  "per_suite": {
+   "banking": {
+    "n": 144,
+    "plain_k": 16,
+    "adaptive_k": 19
+   },
+   "travel": {
+    "n": 140,
+    "plain_k": 3,
+    "adaptive_k": 4
+   },
+   "slack": {
+    "n": 105,
+    "plain_k": 4,
+    "adaptive_k": 2
+   },
+   "workspace": {
+    "n": 560,
+    "plain_k": 13,
+    "adaptive_k": 8
+   }
+  }
+ },
+ "Undefended": {
+  "n": 389,
+  "plain_k": 179,
+  "adaptive_k": 171,
+  "plain_pct": 46.01542416452442,
+  "adaptive_pct": 43.958868894601544,
+  "per_suite": {
+   "banking": {
+    "n": 144,
+    "plain_k": 82,
+    "adaptive_k": 91
+   },
+   "travel": {
+    "n": 140,
+    "plain_k": 31,
+    "adaptive_k": 27
+   },
+   "slack": {
+    "n": 105,
+    "plain_k": 66,
+    "adaptive_k": 53
+   }
+  }
+ }
+}

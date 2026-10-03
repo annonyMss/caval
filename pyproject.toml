@@ -1,0 +1,31 @@
+[project]
+name = "caval"
+version = "0.1.0"
+description = "CAVAL: calibrated action verification for tool-calling LLM agents (artifact of the paper)"
+requires-python = "==3.10.*"
+dependencies = [
+    "agentdojo==0.1.35",            # benchmark + pipeline base classes
+    "torch==2.2.1",                 # PyPI wheel bundles cu121
+    "torch-geometric==2.7.0",       # pure-python, no compiled extras
+    "numpy==1.26.4",
+    "scikit-learn==1.6.1",
+    "sentence-transformers==4.1.0", # frozen MiniLM -- pinned for embedding determinism
+    "transformers==4.49.0",         # its backend, pinned for the same reason
+    "networkx==3.3",
+    "matplotlib==3.10.8",
+    "openai==2.15.0",
+    "google-genai==1.59.0",
+    "json-repair==0.55.1",          # DRIFT baseline path (src/agent_harness/drift_baseline.py)
+    "pydantic==2.12.5",
+    "python-dotenv==1.2.1",
+    "pyyaml==6.0.3",
+    "typing-extensions==4.15.0",
+    "jsonschema>=4.26.0",
+    "pydantic-ai>=1.61.0",
+    "tiktoken>=0.14.0",
+    "jsonref>=1.1.0",
+    "openapi-pydantic>=0.5.1",
+]
+
+[tool.uv]
+package = false          # plain source tree (src/ on sys.path via each entry point)

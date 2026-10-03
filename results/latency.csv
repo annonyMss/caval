@@ -1,0 +1,2 @@
+device,episodes,decisions,median ms,mean ms,p95 ms
+cuda,783,3726,8.4,194.6,1290.8

@@ -1,0 +1,115 @@
+{
+ "pooled": {
+  "undefended": {
+   "benign_utility": 46.666666666666664,
+   "n_benign": 60,
+   "utility_under_attack": 35.357142857142854,
+   "asr_injected": 51.07142857142857,
+   "n_injected": 560,
+   "asr_direct": 100.0,
+   "n_direct": 28
+  },
+  "repeat_user_prompt": {
+   "benign_utility": 50.0,
+   "n_benign": 60,
+   "utility_under_attack": 38.392857142857146,
+   "asr_injected": 34.82142857142857,
+   "n_injected": 560,
+   "asr_direct": 96.42857142857143,
+   "n_direct": 28
+  },
+  "spotlighting_with_delimiting": {
+   "benign_utility": 36.666666666666664,
+   "n_benign": 60,
+   "utility_under_attack": 35.17857142857143,
+   "asr_injected": 48.214285714285715,
+   "n_injected": 560,
+   "asr_direct": 92.85714285714286,
+   "n_direct": 28
+  },
+  "tool_filter": {
+   "benign_utility": 6.666666666666667,
+   "n_benign": 60,
+   "utility_under_attack": 5.357142857142857,
+   "asr_injected": 5.892857142857143,
+   "n_injected": 560,
+   "asr_direct": 53.57142857142857,
+   "n_direct": 28
+  },
+  "transformers_pi_detector": {
+   "benign_utility": 1.6666666666666667,
+   "n_benign": 60,
+   "utility_under_attack": 0.8928571428571429,
+   "asr_injected": 1.4285714285714286,
+   "n_injected": 560,
+   "asr_direct": 39.285714285714285,
+   "n_direct": 28
+  },
+  "piguard_detector": {
+   "benign_utility": 16.666666666666668,
+   "n_benign": 60,
+   "utility_under_attack": 3.2142857142857144,
+   "asr_injected": 1.4285714285714286,
+   "n_injected": 560,
+   "asr_direct": 64.28571428571429,
+   "n_direct": 28
+  },
+  "prompt_guard_2_detector": {
+   "benign_utility": 45.0,
+   "n_benign": 60,
+   "utility_under_attack": 19.642857142857142,
+   "asr_injected": 35.535714285714285,
+   "n_injected": 560,
+   "asr_direct": 100.0,
+   "n_direct": 28
+  },
+  "camel": {
+   "benign_utility": 0.0,
+   "n_benign": 48,
+   "utility_under_attack": 0.0,
+   "asr_injected": 0.0,
+   "n_injected": 320,
+   "asr_direct": 33.333333333333336,
+   "n_direct": 18
+  },
+  "undefended_camel_subset": {
+   "benign_utility": 47.916666666666664,
+   "n_benign": 48,
+   "utility_under_attack": 41.875,
+   "asr_injected": 37.5,
+   "n_injected": 320,
+   "asr_direct": 100.0,
+   "n_direct": 18
+  },
+  "progent": {
+   "benign_utility": 6.666666666666667,
+   "n_benign": 60,
+   "utility_under_attack": 3.75,
+   "asr_injected": 10.714285714285714,
+   "n_injected": 560,
+   "asr_direct": 53.57142857142857,
+   "n_direct": 28
+  },
+  "drift": {
+   "benign_utility": 18.333333333333332,
+   "n_benign": 60,
+   "utility_under_attack": 19.107142857142858,
+   "asr_injected": 3.5714285714285716,
+   "n_injected": 560,
+   "asr_direct": 60.714285714285715,
+   "n_direct": 28
+  },
+  "CAVAL (ours, same tasks)": {
+   "benign_utility": 26.0,
+   "n_benign": "60x5",
+   "utility_under_attack": 23.75,
+   "asr_injected": 3.9285714285714284,
+   "n_injected": 560,
+   "asr_direct": 23.571428571428573,
+   "n_direct": "28x5",
+   "benign_utility_sd": 4.78423336480244,
+   "asr_direct_sd": 6.624013211068361
+  }
+ },
+ "caval_runs": "caval_deployed"
+}

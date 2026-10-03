@@ -1,0 +1,16 @@
+# secrets
+.env
+*.env
+
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# the episode logs, corpus and benchmark copy are released as caval_data.tar.gz (see README)
+data/
+data/runs/logs/
+
+# release archives are attached to the GitHub release, not committed
+*.tar.gz

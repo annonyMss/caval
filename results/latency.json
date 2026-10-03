@@ -1,0 +1,12 @@
+{
+ "cuda": {
+  "episodes": 783,
+  "decisions": 3726,
+  "decisions_per_episode": 4.758620689655173,
+  "ms_mean": 194.62126790953553,
+  "ms_median": 8.35717050358653,
+  "ms_p95": 1290.808673009451,
+  "ms_per_episode": 926.128792121238,
+  "share_of_episode": 0.08096340759816525
+ }
+}

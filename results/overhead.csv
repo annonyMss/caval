@@ -1,0 +1,7 @@
+defense,benign utility,ASR injected,tokens,time (s),efficiency
+Undefended,62.5,52.1,7031,4.2,0.35
+Tool filter,50.0,16.0,2895,3.3,3.56
+Progent,43.8,27.8,6458,5.3,0.47
+CaMeL,31.2,0.0,46220,20.4,0.03
+DRIFT,50.0,6.9,16103,19.8,0.14
+CAVAL,46.2,12.9,8041,4.7,0.88

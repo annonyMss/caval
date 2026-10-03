@@ -1,0 +1,50 @@
+{
+ "Undefended": {
+  "benign_utility": 62.5,
+  "asr_injected": 52.083333333333336,
+  "tokens": 7031.075,
+  "seconds": 4.198105895519257,
+  "efficiency": 0.3521818341900833,
+  "episodes": 80
+ },
+ "Tool filter": {
+  "benign_utility": 50.0,
+  "asr_injected": 15.972222222222221,
+  "tokens": 2894.6875,
+  "seconds": 3.2894860208034515,
+  "efficiency": 3.5589051133092586,
+  "episodes": 16
+ },
+ "Progent": {
+  "benign_utility": 43.75,
+  "asr_injected": 27.77777777777778,
+  "tokens": 6457.6875,
+  "seconds": 5.260571613907814,
+  "efficiency": 0.4674617411781203,
+  "episodes": 16
+ },
+ "CaMeL": {
+  "benign_utility": 31.25,
+  "asr_injected": 0.0,
+  "tokens": 46220.125,
+  "seconds": 20.42200943827629,
+  "efficiency": 0.03308982615114415,
+  "episodes": 16
+ },
+ "DRIFT": {
+  "benign_utility": 50.0,
+  "asr_injected": 6.944444444444445,
+  "tokens": 16103.0625,
+  "seconds": 19.83944457769394,
+  "efficiency": 0.13517777288503238,
+  "episodes": 16
+ },
+ "CAVAL": {
+  "benign_utility": 46.25,
+  "asr_injected": 12.916666666666666,
+  "tokens": 8040.6875,
+  "seconds": 4.653142830729484,
+  "efficiency": 0.8811225448300862,
+  "episodes": 80
+ }
+}

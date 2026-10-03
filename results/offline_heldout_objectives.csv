@@ -1,0 +1,2 @@
+model,AUC,prevention 0.10,FAR 0.10
+R-GCN,0.830,0.342,0.087

@@ -1,0 +1,228 @@
+{
+ "pooled": {
+  "camel (fork harness)": {
+   "benign_utility": 32.98969072164948,
+   "utility_under_attack": 41.891891891891895,
+   "asr_injected": 0.15015015015015015,
+   "asr_direct": 65.71428571428571
+  },
+  "progent (fork harness)": {
+   "benign_utility": 65.97938144329896,
+   "utility_under_attack": 58.408408408408405,
+   "asr_injected": 11.561561561561561,
+   "asr_direct": 74.28571428571429
+  },
+  "tool_filter (fork harness)": {
+   "benign_utility": 62.88659793814433,
+   "utility_under_attack": 60.510510510510514,
+   "asr_injected": 6.756756756756757,
+   "asr_direct": 65.71428571428571
+  },
+  "undefended (our harness)": {
+   "benign_utility": 67.01030927835052,
+   "utility_under_attack": 34.38438438438438,
+   "asr_injected": 31.83183183183183,
+   "asr_direct": 68.57142857142857,
+   "benign_utility_sd": 2.3508771651528635,
+   "asr_direct_sd": 4.040610178208847
+  },
+  "DRIFT (our harness)": {
+   "benign_utility": 61.855670103092784,
+   "utility_under_attack": 59.45945945945946,
+   "asr_injected": 2.2522522522522523,
+   "asr_direct": 65.71428571428571
+  },
+  "CAVAL (our harness)": {
+   "benign_utility": 60.0,
+   "utility_under_attack": 36.846846846846844,
+   "asr_injected": 5.225225225225225,
+   "asr_direct": 29.142857142857142,
+   "benign_utility_sd": 5.392452301287429,
+   "asr_direct_sd": 6.10118757258932,
+   "asr_injected_sd": 0.6110207192004744,
+   "utility_under_attack_sd": 0.6551779047829266
+  }
+ },
+ "banking": {
+  "camel (fork harness)": {
+   "benign_utility": 31.25,
+   "utility_under_attack": 36.80555555555556,
+   "asr_injected": 0.0,
+   "asr_direct": 88.88888888888889
+  },
+  "progent (fork harness)": {
+   "benign_utility": 43.75,
+   "utility_under_attack": 34.72222222222222,
+   "asr_injected": 27.77777777777778,
+   "asr_direct": 88.88888888888889
+  },
+  "tool_filter (fork harness)": {
+   "benign_utility": 50.0,
+   "utility_under_attack": 40.27777777777778,
+   "asr_injected": 15.972222222222221,
+   "asr_direct": 88.88888888888889
+  },
+  "undefended (our harness)": {
+   "benign_utility": 62.5,
+   "utility_under_attack": 40.97222222222222,
+   "asr_injected": 52.083333333333336,
+   "asr_direct": 80.0,
+   "benign_utility_sd": 5.5901699437494745,
+   "asr_direct_sd": 12.957670877434
+  },
+  "DRIFT (our harness)": {
+   "benign_utility": 50.0,
+   "utility_under_attack": 47.22222222222222,
+   "asr_injected": 6.944444444444445,
+   "asr_direct": 88.88888888888889
+  },
+  "CAVAL (our harness)": {
+   "benign_utility": 46.25,
+   "utility_under_attack": 32.5,
+   "asr_injected": 12.916666666666666,
+   "asr_direct": 37.77777777777778,
+   "benign_utility_sd": 12.869537676233751,
+   "asr_direct_sd": 13.333333333333334,
+   "asr_injected_sd": 1.8425693279752227,
+   "utility_under_attack_sd": 3.2690561933166156
+  }
+ },
+ "slack": {
+  "camel (fork harness)": {
+   "benign_utility": 47.61904761904762,
+   "utility_under_attack": 55.55555555555556,
+   "asr_injected": 0.0,
+   "asr_direct": 100.0
+  },
+  "progent (fork harness)": {
+   "benign_utility": 61.904761904761905,
+   "utility_under_attack": 52.77777777777778,
+   "asr_injected": 37.5,
+   "asr_direct": 100.0
+  },
+  "tool_filter (fork harness)": {
+   "benign_utility": 57.142857142857146,
+   "utility_under_attack": 40.27777777777778,
+   "asr_injected": 5.555555555555555,
+   "asr_direct": 100.0
+  },
+  "undefended (our harness)": {
+   "benign_utility": 77.14285714285714,
+   "utility_under_attack": 56.94444444444444,
+   "asr_injected": 63.888888888888886,
+   "asr_direct": 96.0,
+   "benign_utility_sd": 3.56348322549899,
+   "asr_direct_sd": 8.0
+  },
+  "DRIFT (our harness)": {
+   "benign_utility": 66.66666666666667,
+   "utility_under_attack": 55.55555555555556,
+   "asr_injected": 0.0,
+   "asr_direct": 80.0
+  },
+  "CAVAL (our harness)": {
+   "benign_utility": 77.14285714285714,
+   "utility_under_attack": 40.833333333333336,
+   "asr_injected": 4.444444444444445,
+   "asr_direct": 20.0,
+   "benign_utility_sd": 10.168645954315531,
+   "asr_direct_sd": 12.649110640673518,
+   "asr_injected_sd": 2.832788618662658,
+   "utility_under_attack_sd": 6.248456599556663
+  }
+ },
+ "travel": {
+  "camel (fork harness)": {
+   "benign_utility": 0.0,
+   "utility_under_attack": 0.0,
+   "asr_injected": 0.7142857142857143,
+   "asr_direct": 57.142857142857146
+  },
+  "progent (fork harness)": {
+   "benign_utility": 65.0,
+   "utility_under_attack": 55.714285714285715,
+   "asr_injected": 6.428571428571429,
+   "asr_direct": 85.71428571428571
+  },
+  "tool_filter (fork harness)": {
+   "benign_utility": 50.0,
+   "utility_under_attack": 54.285714285714285,
+   "asr_injected": 5.0,
+   "asr_direct": 71.42857142857143
+  },
+  "undefended (our harness)": {
+   "benign_utility": 50.0,
+   "utility_under_attack": 31.428571428571427,
+   "asr_injected": 26.428571428571427,
+   "asr_direct": 77.14285714285714,
+   "benign_utility_sd": 7.745966692414834,
+   "asr_direct_sd": 6.998542122237648
+  },
+  "DRIFT (our harness)": {
+   "benign_utility": 60.0,
+   "utility_under_attack": 55.0,
+   "asr_injected": 0.0,
+   "asr_direct": 85.71428571428571
+  },
+  "CAVAL (our harness)": {
+   "benign_utility": 37.0,
+   "utility_under_attack": 35.142857142857146,
+   "asr_injected": 3.857142857142857,
+   "asr_direct": 48.57142857142857,
+   "benign_utility_sd": 13.2664991614216,
+   "asr_direct_sd": 19.378085666072195,
+   "asr_injected_sd": 2.657296462534039,
+   "utility_under_attack_sd": 3.1428571428571423
+  }
+ },
+ "workspace": {
+  "camel (fork harness)": {
+   "benign_utility": 42.5,
+   "utility_under_attack": 60.0,
+   "asr_injected": 0.0,
+   "asr_direct": 42.857142857142854
+  },
+  "progent (fork harness)": {
+   "benign_utility": 77.5,
+   "utility_under_attack": 71.93548387096774,
+   "asr_injected": 0.3225806451612903,
+   "asr_direct": 50.0
+  },
+  "tool_filter (fork harness)": {
+   "benign_utility": 77.5,
+   "utility_under_attack": 77.41935483870968,
+   "asr_injected": 3.5483870967741935,
+   "asr_direct": 35.714285714285715
+  },
+  "undefended (our harness)": {
+   "benign_utility": 72.0,
+   "utility_under_attack": 27.419354838709676,
+   "asr_injected": 17.419354838709676,
+   "asr_direct": 47.14285714285714,
+   "benign_utility_sd": 2.9154759474226504,
+   "asr_direct_sd": 3.499271061118827
+  },
+  "DRIFT (our harness)": {
+   "benign_utility": 65.0,
+   "utility_under_attack": 68.06451612903226,
+   "asr_injected": 1.6129032258064515,
+   "asr_direct": 35.714285714285715
+  },
+  "CAVAL (our harness)": {
+   "benign_utility": 68.0,
+   "utility_under_attack": 38.70967741935484,
+   "asr_injected": 2.4516129032258065,
+   "asr_direct": 17.142857142857142,
+   "benign_utility_sd": 4.0,
+   "asr_direct_sd": 7.2843135908468355,
+   "asr_injected_sd": 0.8798826901281197,
+   "utility_under_attack_sd": 1.4992193598222239
+  }
+ },
+ "n": {
+  "benign": 97,
+  "injected": 666,
+  "direct": 35
+ },
+ "caval_runs": "caval_deployed"
+}
